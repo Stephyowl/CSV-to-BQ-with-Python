@@ -1,0 +1,14 @@
+// The BigQuery Storage API expects protocol buffer data to be encoded in the
+// proto2 wire format. This allows it to disambiguate missing optional fields
+// from default values without the need for wrapper types.
+syntax = "proto2";
+
+// Define a message type representing the rows in your table. The message
+// cannot contain fields which are not present in the table.
+
+message CarPurchaseRecord {
+  optional string gender = 1;
+  optional int32 age_num = 2;
+  optional float car_price = 3;
+  optional int32 date = 4;
+}

@@ -1,0 +1,5 @@
+google-cloud
+google-cloud-bigquery
+google-cloud-bigquery-storage
+protobuf
+pandas

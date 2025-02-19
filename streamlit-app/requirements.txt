@@ -1,0 +1,6 @@
+streamlit
+pandas
+pandas_gbq
+numpy
+google-auth
+streamlit-autorefresh

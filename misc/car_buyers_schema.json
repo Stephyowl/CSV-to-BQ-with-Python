@@ -1,0 +1,19 @@
+
+[
+    {
+      "name": "gender",
+      "type": "STRING"
+    },
+    {
+      "name": "age_num",
+      "type": "INTEGER"
+    },
+    {
+      "name": "car_price",
+      "type": "NUMERIC"
+    },
+    {
+      "name": "date",
+      "type": "DATE"
+    }
+]
