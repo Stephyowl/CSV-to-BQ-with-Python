@@ -4,7 +4,12 @@ import pandas_gbq
 import numpy as np
 import google.auth
 from streamlit_autorefresh import st_autorefresh
+#
+# Run with 'streamlit run app.py'
+#
+#
 
+#Automatically refreshes the app on a given interval (milliseconds). This allows for automatic periodic re-queries of the BQ database.
 count = st_autorefresh(interval=5000)
 st.header("Data Visualized from BQ Database")
 credentials, project = google.auth.default()  # From google-auth or pydata-google-auth library.
