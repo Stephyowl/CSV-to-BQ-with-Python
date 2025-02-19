@@ -21,6 +21,6 @@ def create_data_set(project_id, dataset_id):
     print("Created dataset {}.{}".format(client.project, dataset.dataset_id))
     
 if __name__ == "__main__":
-    project_id = "mythical-temple-451205-j6"
-    dataset_id = "mythical-temple-451205-j6.testdataset1"
+    project_id = "your-project-id"
+    dataset_id = "your-project-id.testdataset1"
     create_data_set(project_id, dataset_id)

@@ -16,7 +16,7 @@ st.header("Data Visualized from BQ Database")
 credentials, project = google.auth.default()  # From google-auth or pydata-google-auth library.
 
 pandas_gbq.context.credentials = credentials
-pandas_gbq.context.project = "mythical-temple-451205-j6"
+pandas_gbq.context.project = "your-project-id"
 
 st.subheader("Cars Purchased Per Month")
 

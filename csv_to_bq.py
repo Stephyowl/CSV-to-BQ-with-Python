@@ -142,7 +142,7 @@ def create_csv_table(project_id: str, dataset_id: str, table_id: str):
     
 if __name__ == "__main__":
     csv_file = "car_buyers_2024_slim.csv"
-    project_id = "mythical-temple-451205-j6" 
+    project_id = "your-project-id" 
     dataset_id = "testdataset1"
     table_id = "car_buyers_table"
     chunk_size = 5

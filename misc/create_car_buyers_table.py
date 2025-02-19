@@ -15,7 +15,7 @@ def create_car_buyers_table(project_id: str, dataset_id: str):
     return full_table_id
 
 if __name__ == "__main__":
-    project_id = "mythical-temple-451205-j6"
+    project_id = "your-project-id"
     dataset_id = "testdataset1"
     full_table_id = create_car_buyers_table(project_id, dataset_id)
     print(full_table_id)
