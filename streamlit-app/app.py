@@ -4,6 +4,7 @@ import pandas_gbq
 import numpy as np
 import google.auth
 from streamlit_autorefresh import st_autorefresh
+
 #
 # Run with 'streamlit run app.py'
 #

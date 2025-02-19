@@ -87,7 +87,7 @@ def write_csv_to_bq(csv_file: str, project_id: str, dataset_id: str, table_id: s
         
         print(f"Finished processing chunk {chunk_index+1}.")
         # uncomment to process only one chunk per run
-        break
+        # break
     return 
 
 def create_request(write_stream_name: str, proto_rows):
